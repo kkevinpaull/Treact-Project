@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/fe44566e6e.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -25,7 +26,7 @@
             <li><a class="nav__link" href="">Pricing</a></li>
             <li><a class="nav__link" href="">Contact Us</a></li>
             <li><a class="nav__link nav__login" href="">Login</a></li>
-            <li><a class="nav__link nav__signup" href="">Sign Up</a></li>
+            <li><a class="nav__signup" href="">Sign Up</a></li>
           </ul>
         </div>
       </nav>
@@ -396,13 +397,11 @@
       <section class="testimonials">
         <div class="container">
           <div class="row__testimonials">
-            <figure class="testimonials__img--wrapper">
               <img
                 class="testimonials__img"
                 src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
                 alt=""
               />
-            </figure>
             <div class="testimonials__description">
               <h4 class="testimonials__tag">Testimonials</h4>
               <h2 class="testimonials__title">
@@ -415,7 +414,7 @@
               </p>
               <div class="testimonial">
                 <div class="testimonial__rating">
-                    <i class="fa-solid fa-star"></i>
+                    <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -425,16 +424,16 @@
                 <p class="testimonial__para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 <div class="testimonial__bottom">
                     <div class="testimonial__profile">
-                        <img src="" alt="profile pic">
+                        <img class="testimonial__img" src="./assets/Castaneto_Kevin_Headshot1.jpg" alt="profile pic">
                         <div class="testimonial__details">
                             <div class="testimonial__name">Juan Dela Cruz</div>
                             <div class="testimonial__role">Director of Marketing, Apica Inc.</div>
                         </div>
                     </div>
                     <div class="testimonial__buttons">
-                        <button class="testimonial__button"> left </button>
-                        <div class="divider"></div>
-                        <button class="testimonial__button">right</button>
+                        <button class="testimonial__button"><i class="fa-solid fa-arrow-left"></i> </button>
+                        <div class="testimonial__divider"></div>
+                        <button class="testimonial__button"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -442,6 +441,84 @@
           </div>
         </div>
       </section>
+      <section id="start">
+        <div class="container">
+            <div class="container__start">
+                <div class="row__start">
+                    <div class="start__title">Developers all over the world are happily using Treact.</div>
+                    <div class="start__buttons">
+                        <button class="start__button">Get Started</button>
+                        <button class="start__button">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
     </main>
+    <footer>
+        <div class="row  row__footer">
+            <div class="footer__columns">
+                <div class="footer_column">
+                    <div class="footer__column--title">Main</div>
+                    <a class="footer__column--link" href="">Blog</a>
+                    <a class="footer__column--link" href="">FAQs</a>
+                    <a class="footer__column--link" href="">Support</a>
+                    <a class="footer__column--link" href="">About Us</a>
+                </div>
+                <div class="footer_column">
+                    <div class="footer__column--title">Product</div>
+                    <a class="footer__column--link" href="">Log In</a>
+                    <a class="footer__column--link" href="">Personal</a>
+                    <a class="footer__column--link" href="">Business</a>
+                    <a class="footer__column--link" href="">Team</a>
+                </div>
+                <div class="footer_column">
+                    <div class="footer__column--title">Press</div>
+                    <a class="footer__column--link" href="">Logos</a>
+                    <a class="footer__column--link" href="">Events</a>
+                    <a class="footer__column--link" href="">Stories</a>
+                    <a class="footer__column--link" href="">Office</a>
+                </div>
+                <div class="footer_column">
+                    <div class="footer__column--title">Team</div>
+                    <a class="footer__column--link" href="">Career</a>
+                    <a class="footer__column--link" href="">Founders</a>
+                    <a class="footer__column--link" href="">Culture</a>
+                    <a class="footer__column--link" href="">Onboarding</a>
+                </div>
+                <div class="footer_column">
+                    <div class="footer__column--title">Legal</div>
+                    <a class="footer__column--link" href="">GDPR</a>
+                    <a class="footer__column--link" href="">Privacy Policy</a>
+                    <a class="footer__column--link" href="">Terms of Service</a>
+                    <a class="footer__column--link" href="">Disclaimer</a>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__bottom">
+                <figure class="footer__logo">
+                    <img class="footer__logo--treact" src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+                    <h5 class="footer__logo--text">Treact Inc.</h5>
+                </figure>
+                <div class="footer__copyright">
+                    © 2024 Treact Inc. All Rights Reserved.
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social--link" href="">
+                        <img class="footer__img--social" src="./assets/facebook-round-svgrepo-com.svg" alt="">
+                    </a>
+                    <a class="footer__social--link" href="">
+                        <img class="footer__img--social" src="./assets/instagram-round-svgrepo-com.svg" alt="">
+                    </a>
+                    <a class="footer__social--link" href="">
+                        <img class="footer__img--social" src="/assets/twitter-round-svgrepo-com.svg" alt="">
+                    </a>
+                    <a class="footer__social--link" href="">
+                        <img class="footer__img--social" src="./assets/youtube-round-svgrepo-com.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
