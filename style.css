@@ -174,7 +174,7 @@ button {
     left: 2%;
     right: 2%;
     bottom: 50%;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +204,7 @@ button {
 
 .menu__link {
     color: #1a202c;
-    font-size: 32px
+    font-size: 24px
 }
 
 .menu__link:hover {
@@ -227,7 +227,7 @@ button {
 
 .signup--button {
     color: #f7fafc;
-    font-size: 32px
+    font-size: 24px
 }
 
 .btn__menu--close {
@@ -586,6 +586,9 @@ header {
 
 .row__values {
     display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
 }
 
 .values__description, .values__img--wrapper {
@@ -714,6 +717,9 @@ header {
 /* PRICING */
 
 .row__pricing {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -881,6 +887,9 @@ header {
 /* TESTIMONIAL */
 
 .row__testimonials {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
     display: flex;
 }
 
@@ -1357,6 +1366,14 @@ footer {
         width: calc(100% / 5)
     }
 
+    .menu__link {
+        font-size: 20px;
+    }
+
+    .signup--button {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -1454,6 +1471,14 @@ footer {
         margin-top: 32px;
     }
 
+    .menu__link {
+        font-size: 20px;
+    }
+
+    .signup--button {
+        font-size: 20px;
+    }
+
 }
 @media (max-width:576px) {
     .header__email {
@@ -1522,6 +1547,14 @@ footer {
         align-items: center;
         text-align: center;
         padding: 0 16px
+    }
+
+    .menu__link {
+        font-size: 14px;
+    }
+
+    .signup--button {
+        font-size: 14px;
     }
 
 }
