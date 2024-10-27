@@ -1520,6 +1520,10 @@ footer {
         margin-top: 16px;
     }
 
+    .features__para {
+        padding: 0;
+    }
+
     .testimonial__bottom {
         flex-direction: column;
         align-items: center;
@@ -1557,4 +1561,24 @@ footer {
         font-size: 14px;
     }
 
+}
+
+@media (max-width:452px) {
+    .features__title {
+        text-align: center;
+    }
+   
+}
+
+@media (max-width: 465px) {
+    .start__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start__button:nth-child(1) {
+        margin-right: 0;
+    }
+   
 }
